@@ -1,7 +1,7 @@
-# VIS-LARAVEL API
+# PSIKOTEST-LARAVEL API
 ## Install
 
-1. git clone https://github.com/suryo/vis-laravel-api.git
+1. git clone https://github.com/suryo/psikotest-laravel-api
 2. composer install
 3. copy .env.example to .env
 4. php artisan key:generate
