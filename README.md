@@ -21,7 +21,7 @@ git checkout -b nama_branch
 * GET :: /api/userlogin/?username=ali&pwd=ali123
 * PUT :: /api/user/2
 
-### USER
+### PAPI
 * POST :: /api/papi
 * GET :: /api/papi
 * GET :: /api/papi
@@ -45,3 +45,8 @@ php artisan make:controller Api\PapiController -r
 ## Check Route
 php artisan route:list
 
+## API DOCUMENTATION
+1. install composer require "darkaonline/l5-swagger"
+2. run php artisan l5-swagger:generate
+3. run php artisan server
+4. open url -> http://127.0.0.1:8000/api/documentation
