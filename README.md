@@ -8,27 +8,39 @@
 5. php artisan serve
 6. dump db_vis.sql
 
+## Check Route
+php artisan route:list
+
+## CREATE NEW Branch
 git checkout -b nama_branch
 
-## branch
-
 ## Endpoint
+### USER
+* POST :: /api/user
+* GET :: /api/user
+* GET :: /api/userlogin/?username=ali&pwd=ali123
+* PUT :: /api/user/2
 
+### USER
+* POST :: /api/papi
+* GET :: /api/papi
+* GET :: /api/papi
+* PUT :: /api/papi/2
 
 ## Membuat Model
 
 php artisan make:model nama_model -m
 example
-php artisan make:model tenant_model -r 
+php artisan make:model papi_model -r 
 
 ## Membuat Resource
 
 php artisan make:resource nama_resource
 example :
-php artisan make:resource TenantResource
+php artisan make:resource PapiResource
 
 ## Membuat Controller
-php artisan make:controller Api\TenantController -r 
+php artisan make:controller Api\PapiController -r 
 
 ## Check Route
 php artisan route:list
