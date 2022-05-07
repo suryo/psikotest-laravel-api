@@ -8,7 +8,7 @@
         "/api/papi": {
             "get": {
                 "tags": [
-                    "Papi"
+                    "PAPI"
                 ],
                 "summary": "Get list of papi",
                 "description": "Returns list of papi",
@@ -16,6 +16,403 @@
                 "responses": {
                     "200": {
                         "description": "Successful operation"
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "PAPI"
+                ],
+                "summary": "Create a Test",
+                "operationId": "8ccc58051bc47157431d2ac3439b5dc2",
+                "requestBody": {
+                    "description": "Data packet for Test",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "data": {
+                                        "type": "array",
+                                        "items": {
+                                            "properties": {
+                                                "no_pendaftaran": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb1": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb2": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb3": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb4": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb5": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb6": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb7": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb8": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb9": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb10": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb11": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb12": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb13": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb14": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb15": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb16": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb17": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb18": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb19": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb20": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb21": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb22": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb23": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb24": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb25": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb26": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb27": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb28": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb29": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb30": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb31": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb32": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb33": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb34": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb35": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb36": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb37": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb38": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb39": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb40": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb41": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb42": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb43": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb44": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb45": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb46": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb47": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb48": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb49": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb50": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb51": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb52": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb53": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb54": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb55": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb56": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb57": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb58": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb59": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb60": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb61": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb62": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb63": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb64": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb65": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb66": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb67": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb68": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb69": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb70": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb71": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb72": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb73": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb74": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb75": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb76": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb77": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb78": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb79": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb80": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb81": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb82": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb83": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb84": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb85": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb86": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb87": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb88": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb89": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb90": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                }
+                                            },
+                                            "type": "object"
+                                        }
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful response"
                     }
                 }
             }
