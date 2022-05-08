@@ -352,7 +352,7 @@ class RiasecController extends Controller
 
                 ]);
                 $p = [
-                    'name' => 'Insert Papi',
+                    'name' => 'Insert Riasec',
                     'no_pendaftaran' => $data[$d]["no_pendaftaran"],
                     'jawab1' => $data[$d]['jawab1'],
                     'jawab2' => $data[$d]['jawab2'],
