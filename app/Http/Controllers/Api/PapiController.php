@@ -51,17 +51,12 @@ class PapiController extends Controller
         where no_pendaftaran ="' . $no_pendaftaran.'"'
         );
         $PapiUserResult = response()->json(['data' => $result]);
-        // dump($username);
-        // dump($password);
-        //dump($login);
-        // dump($result[0]->id);
-        // die;
+       
         if (!empty($result))
         {
             $result = [
                 'name' => 'getuser',
                 'status' =>  'ok',
-                // 'id' => $result[0]->id,
                 'no_pendaftaran' => $result[0]->no_pendaftaran,
                 'meesage' => 'udah ada gaes'
             ];
