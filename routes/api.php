@@ -38,7 +38,9 @@ Route::get('/papiuserresult', 'App\Http\Controllers\Api\PapiController@getPapiUs
  * route resource tiu
 */
 Route::apiResource('/tiu', App\Http\Controllers\Api\TiuController::class);
+Route::get('/tiuuserresult', 'App\Http\Controllers\Api\TiuController@getTiuUserResult');
 /**
  * route resource riasec
 */
 Route::apiResource('/riasec', App\Http\Controllers\Api\RiasecController::class);
+Route::get('/riasecuserresult', 'App\Http\Controllers\Api\RiasecController@getRiasecUserResult');
