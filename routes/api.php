@@ -30,6 +30,14 @@ Route::get('/userlogin', 'App\Http\Controllers\Api\UserController@getuserlogin')
 Route::put('/user', 'App\Http\Controllers\Api\UserController@update');
 
 /**
- * route resource desa
+ * route resource papi
 */
 Route::apiResource('/papi', App\Http\Controllers\Api\PapiController::class);
+/**
+ * route resource tiu
+*/
+Route::apiResource('/tiu', App\Http\Controllers\Api\TiuController::class);
+/**
+ * route resource riasec
+*/
+Route::apiResource('/riasec', App\Http\Controllers\Api\RiasecController::class);
