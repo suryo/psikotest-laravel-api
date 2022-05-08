@@ -29,18 +29,19 @@ git checkout -b nama_branch
 
 ## Membuat Model
 
-php artisan make:model nama_model -m
+php artisan make:model riasec_model -m
 example
-php artisan make:model papi_model -r 
+-r menandakan membuat model beserta controller
+php artisan make:model tiu_model -r 
 
 ## Membuat Resource
 
 php artisan make:resource nama_resource
 example :
-php artisan make:resource PapiResource
+php artisan make:resource RiasecResource
 
 ## Membuat Controller
-php artisan make:controller Api\PapiController -r 
+php artisan make:controller Api\RiasecController -r 
 
 ## Check Route
 php artisan route:list

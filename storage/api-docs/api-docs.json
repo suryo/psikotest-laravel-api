@@ -417,6 +417,398 @@
                 }
             }
         },
+        "/api/riasec": {
+            "get": {
+                "tags": [
+                    "RIASEC"
+                ],
+                "summary": "Get list of riasec",
+                "description": "Returns list of riasec",
+                "operationId": "getRiasecList",
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "RIASEC"
+                ],
+                "summary": "Create a Test",
+                "operationId": "ad20992d1195f8e995e21af1e9ba6c69",
+                "requestBody": {
+                    "description": "Data packet for Test",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "data": {
+                                        "type": "array",
+                                        "items": {
+                                            "properties": {
+                                                "no_pendaftaran": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab1": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab2": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab3": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab4": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab5": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab6": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab7": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab8": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab9": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab10": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab11": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab12": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab13": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab14": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab15": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab16": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab17": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab18": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab19": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab20": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab21": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab22": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab23": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab24": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab25": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab26": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab27": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab28": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab29": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab30": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab31": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab32": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab33": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab34": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab35": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab36": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab37": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab38": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab39": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab40": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab41": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jawab42": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                }
+                                            },
+                                            "type": "object"
+                                        }
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful response"
+                    }
+                }
+            }
+        },
+        "/api/tiu": {
+            "get": {
+                "tags": [
+                    "TIU"
+                ],
+                "summary": "Get list of tiu",
+                "description": "Returns list of papi",
+                "operationId": "getTiuList",
+                "responses": {
+                    "200": {
+                        "description": "Successful operation"
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "TIU"
+                ],
+                "summary": "Create a Test",
+                "operationId": "1e76e117605a5047b12d13fdb55ab71f",
+                "requestBody": {
+                    "description": "Data packet for Test",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "data": {
+                                        "type": "array",
+                                        "items": {
+                                            "properties": {
+                                                "no_pendaftaran": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb1": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb2": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb3": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb4": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb5": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb6": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb7": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb8": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb9": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb10": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb11": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb12": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb13": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb14": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb15": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb16": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb17": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb18": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb19": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb20": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb21": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb22": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb23": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb24": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb25": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb26": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb27": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb28": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb29": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                },
+                                                "jwb30": {
+                                                    "type": "string",
+                                                    "example": ""
+                                                }
+                                            },
+                                            "type": "object"
+                                        }
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful response"
+                    }
+                }
+            }
+        },
         "/user": {
             "get": {
                 "tags": [
