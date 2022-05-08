@@ -59,7 +59,7 @@ class UserController extends Controller
         
 
         $result =  DB::select(
-            'select * from vis_users as u
+            'select * from vis_users as u inner join peserta_models p on u.id = p.id_login
         where u.username ="' . $username. '" AND u.password ="'. $password.'"'
         );
         $login = response()->json(['data' => $result]);
@@ -74,6 +74,7 @@ class UserController extends Controller
                 'name' => 'getuser',
                 'status' =>  'ok',
                 'id' => $result[0]->id,
+                'no_pendaftaran' => $result[0]->no_pendaftaran,
                 'meesage' => 'udah ok gaes'
             ];
         }
