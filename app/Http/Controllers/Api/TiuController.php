@@ -39,6 +39,39 @@ class TiuController extends Controller
         return response()->json(['data' => $result]);
     }
 
+    public function getTiuUserResult(Request $request)
+    {   
+        $no_pendaftaran = ($request->no_pendaftaran);
+
+        
+
+        $result =  DB::select(
+            'select * from tiu_models
+        where no_pendaftaran ="' . $no_pendaftaran.'"'
+        );
+        $TiuUserResult = response()->json(['data' => $result]);
+       
+        if (!empty($result))
+        {
+            $result = [
+                'name' => 'getuser',
+                'status' =>  'ok',
+                'no_pendaftaran' => $result[0]->no_pendaftaran,
+                'message' => 'udah ada gaes'
+            ];
+        }
+        else
+        {
+            $result = [
+                'name' => 'getuser',
+                'status' =>  'null',
+               
+            ];
+        }
+
+        return new TiuResource($result);
+    }
+
     /**
      * Store a newly created resource in storage.
      *
