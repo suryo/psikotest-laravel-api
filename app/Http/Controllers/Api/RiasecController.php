@@ -39,6 +39,39 @@ class RiasecController extends Controller
         return response()->json(['data' => $result]);
     }
 
+    public function getRiasecUserResult(Request $request)
+    {   
+        $no_pendaftaran = ($request->no_pendaftaran);
+
+        
+
+        $result =  DB::select(
+            'select * from riasec_models
+        where no_pendaftaran ="' . $no_pendaftaran.'"'
+        );
+        $RiasecUserResult = response()->json(['data' => $result]);
+       
+        if (!empty($result))
+        {
+            $result = [
+                'name' => 'getuser',
+                'status' =>  'ok',
+                'no_pendaftaran' => $result[0]->no_pendaftaran,
+                'meesage' => 'udah ada gaes'
+            ];
+        }
+        else
+        {
+            $result = [
+                'name' => 'getuser',
+                'status' =>  'null',
+               
+            ];
+        }
+
+        return new RiasecResource($result);
+    }
+
     /**
      * Store a newly created resource in storage.
      *
