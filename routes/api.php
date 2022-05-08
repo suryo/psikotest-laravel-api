@@ -33,6 +33,7 @@ Route::put('/user', 'App\Http\Controllers\Api\UserController@update');
  * route resource papi
 */
 Route::apiResource('/papi', App\Http\Controllers\Api\PapiController::class);
+Route::get('/papiuserresult', 'App\Http\Controllers\Api\PapiController@getPapiUserResult');
 /**
  * route resource tiu
 */
